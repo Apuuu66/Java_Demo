@@ -13,7 +13,7 @@ public class CollectionDemo {
         coll.add(123);
         coll.add("急啊");
         coll.add(new A(1,1));
-        System.out.println(coll);
+        System.out.println(coll.size());
         Iterator it=coll.iterator();
 
     }
