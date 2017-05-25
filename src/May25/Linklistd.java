@@ -20,7 +20,6 @@ public class Linklistd {
         list.pop();
         System.out.println(list);
         list.pop();
-        System.out.println(list.);
         System.out.println(list);
     }
 }
