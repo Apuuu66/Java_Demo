@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
  */
 public class MailPattern {
     public static void main(String[] args) {
-        String content ="466007639@qq.com";
+        String content ="466007639@qq.com    weqweqeq@qw.com";
         String reg="[a-zA-Z0-9]\\w{5,17}@[a-zA-Z0-9]{2,}\\.(com|cn|net){1,2}";
         Pattern pattern=Pattern.compile(reg);
         Matcher matcher=pattern.matcher(content);
