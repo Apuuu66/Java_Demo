@@ -19,7 +19,7 @@ public class ChatSender extends Thread {
             String line = null;
             DatagramPacket packet = null;
             while ((line = keyReader.readLine()) != null) {
-                packet = new DatagramPacket(line.getBytes(), line.getBytes().length, InetAddress.getByName("192.168.15.255"), 9090);
+                packet = new DatagramPacket(line.getBytes(), line.getBytes().length, InetAddress.getLocalHost(), 9090);
                 socket.send(packet);
             }
             socket.close();
