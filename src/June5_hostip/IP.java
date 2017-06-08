@@ -1,4 +1,4 @@
-package June5;
+package June5_hostip;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

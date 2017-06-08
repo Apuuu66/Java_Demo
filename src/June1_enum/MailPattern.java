@@ -1,4 +1,4 @@
-package June1;
+package June1_enum;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

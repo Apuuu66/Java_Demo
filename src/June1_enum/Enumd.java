@@ -1,6 +1,4 @@
-package June1;
-
-import java.lang.invoke.SwitchPoint;
+package June1_enum;
 
 /**
  * Created by Snoopy on 2017/6/1.

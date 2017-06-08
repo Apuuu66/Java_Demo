@@ -1,4 +1,4 @@
-package June6;
+package June6_udp;
 
 import java.io.BufferedReader;
 import java.io.IOException;

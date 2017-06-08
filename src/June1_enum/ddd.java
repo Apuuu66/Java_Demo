@@ -1,4 +1,4 @@
-package June1;
+package June1_enum;
 
 /**
  * Created by Snoopy on 2017/6/1.

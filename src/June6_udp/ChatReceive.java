@@ -1,4 +1,4 @@
-package June6;
+package June6_udp;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
